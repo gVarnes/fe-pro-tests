@@ -4,4 +4,4 @@ import {
   addDotsToString,
   divisibleBy,
   sumOfArray,
-} from './index';
+} from './index.js';

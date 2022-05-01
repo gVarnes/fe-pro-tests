@@ -4,6 +4,9 @@
  * @returns {string}
  */
 export const changeStringCase = (string, stringCase) => {
+  if (typeof string !== 'string') {
+    string = string.toString();
+  }
   switch (stringCase) {
     case 'lowercase':
       return string.toLowerCase();
